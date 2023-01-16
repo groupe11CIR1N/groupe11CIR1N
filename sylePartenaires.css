@@ -152,13 +152,7 @@ footer a{
     flex-basis: 15%;
 }
 
-#contain{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-}
-
 #contain img{
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }

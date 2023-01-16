@@ -153,12 +153,10 @@ footer a{
 }
 
 #contain{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
+    /* display: flex; */
 }
 
 #contain img{
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
