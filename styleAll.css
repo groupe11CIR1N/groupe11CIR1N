@@ -11,7 +11,7 @@ header{
     color: black;
     font-family: cursive;
     position: fixed;
-    width: 1520px;
+    width: 100%;
     margin-top: 0px;
     margin-right: 10px;
     top: 0px;
@@ -108,8 +108,12 @@ h1{
 footer{
     position: relative;
     bottom: 0;
-    background-color: #ce1b1b;
+    background-color: #f44848;
     margin-bottom: 0%;
     z-index: auto;
     flex-wrap: wrap;
+}
+
+#container{
+    display: flex;
 }
