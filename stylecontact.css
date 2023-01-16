@@ -43,19 +43,6 @@ header ul{
     justify-content: space-between;
 }
 
-header li{
-    list-style-type: none;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-h1{
-    color:DB5454;
-    font-size: x-large;
-    text-align: center;
-    margin: 20px;
-}
-
 p{
     font-size: x-large;
 }
@@ -72,35 +59,35 @@ li{
     font-size:20px;
     text-decoration:none;
 }
-
+     
 nav ul{
     background-color:#ce1b1b;
     padding:0;
     margin:0;
 }
-
+     
 nav ul li{
     list-style: none;
     line-height:44px;
     float:left;
     background-color:#ce1b1b;
 }
-
+     
 nav ul li a{
     color:rgb(0, 0, 0);
     padding:10px;
     font-size:20px;
     text-decoration:none;
 }
-
+     
 li a:hover{
     border-bottom:3px rgb(0, 0, 0) solid;
 }
-
-nav ul li ul{
+    
+nav ul li ul{ 
     display:none;
-}
-
+} 
+     
 nav ul li:hover ul{
     z-index:99999;
     display:list-item !important;
@@ -108,7 +95,7 @@ nav ul li:hover ul{
     margin-top:10px;
     margin-left:-10px;
 }
-
+     
 nav ul li:hover ul li{
     float:none;
 }
@@ -166,12 +153,11 @@ footer a{
 }
 
 #contain{
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
     text-align: center;
 }
 
 #contain img{
-    height: auto;
-    width: auto;
+    height: 100%;
+    width: 100%;
 }
