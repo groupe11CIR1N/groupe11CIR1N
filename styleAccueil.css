@@ -150,4 +150,17 @@ footer a{
 
 #container div.box1{
     flex-basis: 15%;
+<<<<<<< HEAD
 }
+=======
+}
+
+#contain{
+    /* display: flex; */
+}
+
+#contain img{
+    height: 100%;
+    width: 100%;
+}
+>>>>>>> 8601f0d6b45db100d8aa652f39edb1bd6636f712
