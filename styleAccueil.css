@@ -43,19 +43,6 @@ header ul{
     justify-content: space-between;
 }
 
-header li{
-    list-style-type: none;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-h1{
-    color:DB5454;
-    font-size: x-large;
-    text-align: center;
-    margin: 20px;
-}
-
 p{
     font-size: x-large;
 }
@@ -72,35 +59,35 @@ li{
     font-size:20px;
     text-decoration:none;
 }
-
+     
 nav ul{
     background-color:#ce1b1b;
     padding:0;
     margin:0;
 }
-
+     
 nav ul li{
     list-style: none;
     line-height:44px;
     float:left;
     background-color:#ce1b1b;
 }
-
+     
 nav ul li a{
     color:rgb(0, 0, 0);
     padding:10px;
     font-size:20px;
     text-decoration:none;
 }
-
+     
 li a:hover{
     border-bottom:3px rgb(0, 0, 0) solid;
 }
-
-nav ul li ul{
+    
+nav ul li ul{ 
     display:none;
-}
-
+} 
+     
 nav ul li:hover ul{
     z-index:99999;
     display:list-item !important;
@@ -108,7 +95,7 @@ nav ul li:hover ul{
     margin-top:10px;
     margin-left:-10px;
 }
-
+     
 nav ul li:hover ul li{
     float:none;
 }
@@ -163,59 +150,4 @@ footer a{
 
 #container div.box1{
     flex-basis: 15%;
-}
-
-
-.diagramme{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-}
-
-.description{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50%;
-}
-
-.button{
-    border: solid 1px;
-    background-color: rgb(200,200,200);
-    padding: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20%;
-    margin-bottom: 10px;
-}
-
-.fil-actu{
-    border: 1px solid ;
-    background-color: rgba(255, 115, 115, 0.69);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.fil-actu dl{
-    padding: 20px;
-    border: 1px solid ;
-    background-color: rgba(255, 115, 115, 0.69);
-}
-
-.fil-actu dt{
-    padding: 20px;
-    border: 1px solid ;
-    background-color: rgba(255, 115, 115, 0.69);
-}
-
-.fil-actu dd{
-    padding: 20px;
-    border: 1px solid ;
-    background-color: rgba(255, 115, 115, 0.69);
-}
-
-.fil-actu a:hover{
-    text-decoration: underline;
 }

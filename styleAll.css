@@ -43,19 +43,6 @@ header ul{
     justify-content: space-between;
 }
 
-header li{
-    list-style-type: none;
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-h1{
-    color:DB5454;
-    font-size: x-large;
-    text-align: center;
-    margin: 20px;
-}
-
 p{
     font-size: x-large;
 }
