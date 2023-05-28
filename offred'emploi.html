@@ -40,18 +40,47 @@
       </nav>
     </header>
     
-    <h1>Partenaires</h1>
-    
-    <div id="contain">
-      <img src="docimgs/offre1.jpg"/>
-      <br>
-      <img src="docimgs/offre2.jpg"/>
-      <br>
-      <img src="docimgs/offre3.jpg"/>
-      <br>
-      <img src="docimgs/arch.jpg"/>
+    <br>
+    <h1>Offres d'Emploi</h1>
+
+    <div class="scrollable-posts">
+      <div class="domain">
+        <h2>Offres de post-docs</h2>
+        <ul>
+          <li onclick="openPDF('./docimgs/postdoc_offre.pdf')">Offres de Post-docs - Voir le sujet detailé</li>
+          <li onclick="openPDF('./docimgs/postdoc_offre.pdf')">Post doctoral position (24 months) on Artificial Intelligence (AI) (OFFRE POURVUE)</li>
+        </ul>
+      </div>
+      
+      <div class="domain">
+        <h2>Offres de thèses</h2>
+        <ul>
+          <li onclick="openPDF('./docimgs/postdoc_offre.pdf')">Offres de Thèses - Voir le sujet detailé</li>
+          <li onclick="openPDF('./docimgs/postdoc_offre.pdf')">Thesis on Artificial Intelligence (AI) (OFFRE POURVUE)</li>
+        </ul>
+      </div>
+
+      <div class="domain">
+        <h2>Offres de stages</h2>
+        <ul>
+          <li onclick="openPDF('./docimgs/postdoc_offre.pdf')">Offre de Stages - Voir le sujet detailé</li>
+          <li onclick="openPDF('./docimgs/postdoc_offre.pdf')">Internship (6 months) on Artificial Intelligence (AI) (OFFRE POURVUE)</li>
+        </ul>
+      </div>
+      <!-- Add more domain sections as needed -->
     </div>
 
+    <div class="pdf-viewer">
+      <embed id="pdfViewer" src="" type="application/pdf"  width="500px" height="500px" />
+    </div>
+
+    <script>
+      function openPDF(pdfURL) {
+        var pdfViewer = document.getElementById("pdfViewer");
+        pdfViewer.setAttribute("src", pdfURL);
+      }
+    </script>
+    
     <footer>
       <div id="container">
         <div class="box1"><a href="Accueil.html"><img src="docimgs/logo1.png"/></a></div>

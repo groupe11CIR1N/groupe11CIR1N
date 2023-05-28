@@ -154,9 +154,10 @@ footer a{
 
 #contain{
     /* display: flex; */
+
 }
 
-#contain img{
-    height: 100%;
-    width: 100%;
+#contain #planPhotos img{
+    max-height: 100%;
+    max-width: 50%;
 }
