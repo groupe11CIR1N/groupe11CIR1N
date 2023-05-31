@@ -4,6 +4,7 @@
    <meta chpadsdnvxkncarset="utf-8">
    <title> Projets </title>
 <link href="styleProjet.css" rel="stylesheet">
+<script src="projet.js"></script>
  </head>
   <body>
     <header>
@@ -22,7 +23,7 @@
             <a href="Publication.html">Publications</a></div></li>
             <div class="box2.5"><li><a href="Partenaire.html"><img src="docimgs/partenaires.png"/></a>
             <a href="Partenaire.html">Partenaires</a></div></li>
-            <div class="box2.6"><li><a><img src="docimgs/infos et contact.png"/></a>
+            <div class="box2.6"><li><a href="Infos et contact.html"><img src="docimgs/infos et contact.png"/></a>
             <a href="#">Infos & Contacts</a>
             <ul>
               <li><a href="contactez-nous.html">Contactez-nous</a></li>
@@ -30,7 +31,7 @@
               <li><a href="offred'emploi.html">Offres d'emploi</a></li>
             </ul></div></li>
               <div class="box2.4"><li><a href=""><img src="docimgs/recherche.png"/></a>
-              <a href="#">Recherche</a>
+              <a href="">Recherche</a>
               <ul>
                 <li><a href="thématiquederecherche.html">Thématiques de recherche</a></li>
                 <li><a href="plateforme_technologique.html">Plateformes technologiques</a></li>
@@ -42,14 +43,19 @@
     
     <h1>Projets</h1>
     <div id="contain">
-    <img src="docimgs/castel.jpg"/>
+    <img id="castel" onclick="changeImg()" src="docimgs/castel.png"/>
+    <img id="shrek" onclick="changeImg()" src="docimgs/shrek.png"/>
     <br>
-    <img src="docimgs/visemar.jpg"/>
+    <img id="castel" onclick="changeImg()" src="docimgs/visemar.jpg"/>
+    <img id="shrek" onclick="changeImg()" src="docimgs/shrek.png"/>
     <br>
-    <img src="docimgs/seas.jpg"/>
+    <img id="castel" onclick="changeImg()" src="docimgs/seas.jpg"/>
+    <img id="shrek" onclick="changeImg()" src="docimgs/shrek.png"/>
     <br>
-    <img src="docimgs/hpec.jpg"/>
+    <img id="castel" onclick="changeImg()" src="docimgs/hpec.jpg"/>
+    <img id="shrek" onclick="changeImg()" src="docimgs/shrek.png"/>
     </div>
+    <button onclick="scrollToTop()" id="myBtn" title="Revenir en haut de la page">Haut</button>
     <footer>
       <div id="container">
         <div class="box1"><a href="Accueil.html"><img src="docimgs/logo1.png"/></a></div>

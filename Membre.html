@@ -4,12 +4,16 @@
    <meta chpadsdnvxkncarset="utf-8">
    <title> Membres </title>
 <link href="styleMembres.css" rel="stylesheet">
+<script src="membre.js"></script>
  </head>
+ 
   <body>
     <header>
       <nav>
         <div class="box1">
-          <a href="Accueil.html"><img src="docimgs/logo1.png"/></a>
+          <a href="Accueil.html"><img id="logo"src="docimgs/logo1.png"/></a>
+          <div id="horloge"></div>
+          <!-- <div id="temps">0</div> -->
         </div>
           <ul>
             <div class="box2.1"><li><a href="Accueil.html"><img src="docimgs/accueil.png"/></a>
@@ -22,7 +26,7 @@
             <a href="Publication.html">Publications</a></div></li>
             <div class="box2.5"><li><a href="Partenaire.html"><img src="docimgs/partenaires.png"/></a>
             <a href="Partenaire.html">Partenaires</a></div></li>
-            <div class="box2.6"><li><a><img src="docimgs/infos et contact.png"/></a>
+            <div class="box2.6"><li><a href="Infos et contact.html"><img src="docimgs/infos et contact.png"/></a>
             <a href="#">Infos & Contacts</a>
             <ul>
               <li><a href="contactez-nous.html">Contactez-nous</a></li>
@@ -30,7 +34,7 @@
               <li><a href="offred'emploi.html">Offres d'emploi</a></li>
             </ul></div></li>
               <div class="box2.4"><li><a href=""><img src="docimgs/recherche.png"/></a>
-              <a href="#">Recherche</a>
+              <a href="">Recherche</a>
               <ul>
                 <li><a href="thématiquederecherche.html">Thématiques de recherche</a></li>
                 <li><a href="plateforme_technologique.html">Plateformes technologiques</a></li>
@@ -39,29 +43,75 @@
           </ul>  
       </nav>
     </header>
-    
+    <span id="loader"></span>
     <h1>Membres</h1>
     <h2>
       Enseignants et chercheurs permanents
     </h2>
 
     <div id="contain">
-      <div class="box1"><img src="docimgs/Ayoub-Karine.jpg"/>
+      <div class="ayoub"><img id="ayoub" src="docimgs/Ayoub-Karine.jpg"/>
         <br>
+        <h4>Ayoub Karine</h4>
         <p>Isen Yncréa Ouest Nantes</p>
         <p>ayoub.karine@isen-ouest.yncrea.fr</p>
       </div>
-      <div class="box2"><img src="docimgs/Maher-Jridi.jpg"/>
+      <div class="ayoub"><img id="ayoub" src="docimgs/Maher-Jridi.jpg"/>
         <br>
+        <h4>Maher Jridi</h4>
         <p>Isen Yncréa Ouest Nantes</p>
-        <p>Maher.Jridi@isen-ouest.yncrea.fr</p>
+        <p>maher.jridi@isen-ouest.yncrea.fr</p>
+        <br>
+        
       </div>
     </div>
-    <img src="docimgs/Sylvain-Lefebvre.jpg"/>
-    <img src="docimgs/salima-bourbia.jpg"/>
-    <img src="docimgs/djamel-benarab.jpg"/>
-    <img src="docimgs/salima-bourbia1.jpg"/>
-    
+    <h2>
+      Post-Docs
+    </h2>
+    <div class="membre">
+      <h3>Sylvain Lefebvre</h3>
+      <ul>
+        <li>Période : 01/2022 au 04/2023</li>
+        <li>Projet : Industrie 4.0</li>
+        <li>Isen Yncréa Ouest-Nantes</li>
+        <li>sylvain.lefebvre@isen-ouest.yncrea.fr</li>
+      </ul>
+    </div>
+    <h2>
+      Doctorants actuels
+    </h2>
+    <div class="membre">
+      <h3>Salima Bourbia</h3>
+      <ul>
+        <li>Inscrit depuis : 12/2020</li>
+        <li>Encadrants : Ayoub Karine, Maher Jridi</li>
+        <li>ISEN Yncréa Ouest-Nantes</li>
+        <li>Sujet : Evaluations de la qualité des nuages de points 3D</li>
+      </ul>
+    </div>
+    <h2>
+      Anciens doctorants
+    </h2>
+    <div class="membre">
+      <h3>Djamel Benarab</h3>
+      <ul>
+        <li>(thèse soutenue le 02/12/2016)</li>
+        <li>Sujet : Suivi automatique de nageurs à partir des séquences vidéo : application à l'analyse des performances</li>
+        <li>Encadrants : Ayman Alfalou, Thibault Napoléon, Antoine Verney, Philippe Hellard</li>
+        <li>Postes actuel : Ingénieur R&D chez Diota</li>
+      </ul>
+    </div>
+    <h2>
+      Stagiaires
+    </h2>
+    <div class="membre">
+      <h3>Salima Bourbia</h3>
+      <ul>
+        <li>(01/03/2020 - 01/09/2020)</li>
+        <li>Sujet : Quality assessment of stereoscopic images using deep learning</li>
+        <li>Encadrants : Ayoub Karine, Mohammed El Hassouni, Aladine Chetouani</li>
+      </ul>
+    </div>
     <footer>
       <div id="container">
         <div class="box1"><a href="Accueil.html"><img src="docimgs/logo1.png"/></a></div>
@@ -103,4 +153,5 @@
       </div>
     </footer>
   </body>
+  
 </html>

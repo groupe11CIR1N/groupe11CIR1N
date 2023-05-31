@@ -4,12 +4,16 @@
    <meta charset="utf-8">
    <title> Accueil </title>
 <link href="styleAccueil.css" rel="stylesheet">
+<script src="membre.js"></script>
  </head>
   <body>
     <header>
       <nav>
         <div class="box1">
           <a href="Accueil.html"><img src="docimgs/logo1.png"/></a>
+        </div>
+        <div class="Horloge">
+          <div class="heures"></div>
         </div>
           <ul>
             <div class="box2.1"><li><a href="Accueil.html"><img src="docimgs/accueil.png"/></a>
@@ -22,7 +26,7 @@
             <a href="Publication.html">Publications</a></div></li>
             <div class="box2.5"><li><a href="Partenaire.html"><img src="docimgs/partenaires.png"/></a>
             <a href="Partenaire.html">Partenaires</a></div></li>
-            <div class="box2.6"><li><a><img src="docimgs/infos et contact.png"/></a>
+            <div class="box2.6"><li><a href="Infos et contact.html"><img src="docimgs/infos et contact.png"/></a>
             <a href="#">Infos & Contacts</a>
             <ul>
               <li><a href="contactez-nous.html">Contactez-nous</a></li>
@@ -30,7 +34,7 @@
               <li><a href="offred'emploi.html">Offres d'emploi</a></li>
             </ul></div></li>
               <div class="box2.4"><li><a href=""><img src="docimgs/recherche.png"/></a>
-              <a href="#">Recherche</a>
+              <a href="">Recherche</a>
               <ul>
                 <li><a href="thématiquederecherche.html">Thématiques de recherche</a></li>
                 <li><a href="plateforme_technologique.html">Plateformes technologiques</a></li>
@@ -42,15 +46,45 @@
     
     <h1>Accueil</h1>
 
-    <div id="contain">
-      <img src="docimgs/Description.jpg"/>
-      <br>
-      <img src="docimgs/competences.jpg"/>
-      <br>
-      <img src="docimgs/ActualitésBox1.png"/>
-      <img src="docimgs/ActualitésBox2.png"/>
-        <img src="docimgs/ActualitésBox3.png"/>
+    <div class="description">
+      <h2>Description :</h2>
+      <p>L'équipe "Vision et Analyse de Données" est une équipe du laboratoire L@BISEN de l'ISEN Yncréa Ouest. L'équipe mène une activité de R&D pour la conception de plateformes technologiques d'observations et d'analyses à partir de réseaux de capteurs intelligents.</p>
     </div>
+    <br>
+    <div id="contain">
+      <img id="myImage" src="docimgs/competences.jpg" alt="My Image">
+    </div>
+      <br>
+      <h1>Actualités</h1>
+      <div class="boxoffre">
+        <div class="offre">
+          04/2022
+          <br>
+          <br>
+          Appel à candidature pour une thèse CIFRE avec l'entreprise KARDHAM
+          <br>
+          <br>
+          <a href="https://isen-nantes.fr/offres-emploi/" target="_blank">Plus d'information</a>
+        </div>
+        <div class="offre">
+          02/2022
+          <br>
+          <br>
+          Ghatass AKKAD rejoint notre équipe en tant qu'Enseignant Chercheur
+          <br>
+          <br>
+          <a href="https://isen-nantes.fr/offres-emploi/">Plus d'information</a>
+        </div>
+        <div class="offre">
+          12/2021
+          <br>
+          <br>
+          Appel à candidature pour un Postdoc avec l'entreprise ACOME
+          <br>
+          <br>
+          <a href="https://isen-nantes.fr/offres-emploi/">Plus d'information</a>
+        </div>
+      </div>
 
     <footer>
       <div id="container">
